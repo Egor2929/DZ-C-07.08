@@ -8,7 +8,7 @@ int N = Convert.ToInt32(Console.ReadLine());
 
 int counter = 2; //бер левый диапазон
 while (counter <= N)
-    if (N % 10 == 0)
+    if (N % 2 == 0)
     {
         Console.Write(counter + " ");
         counter = counter + 2;
